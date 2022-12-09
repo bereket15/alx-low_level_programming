@@ -19,7 +19,6 @@ int main(void)
 		putchar(alu);
 		alu++;
 	}
-	putchar('\n');
 	return (0);
 }
 
