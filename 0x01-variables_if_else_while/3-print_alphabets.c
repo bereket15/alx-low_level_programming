@@ -13,12 +13,12 @@ int main(void)
 		putchar(al);
 		al++;
 	}
-	putchar('\n');
 	while (alu <= 'Z')
 	{
 		putchar(alu);
 		alu++;
 	}
+	putchar('\n');
 	return (0);
 }
 
