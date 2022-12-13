@@ -7,7 +7,7 @@
  */
 void print_to_98(int n)
 {
-	for (int i = n; n <= 98; i++)
+	for (int i = n; i <= 98; i++)
 		_putcher(n);
 	_putchar('\n');
 }
