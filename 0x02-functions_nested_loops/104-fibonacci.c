@@ -19,7 +19,7 @@ int main(void)
 		if (i == 97)
 			printf("\n");
 		else
-												printf(", ");
+			printf(", ");
 	}
 	return (0);
 }
