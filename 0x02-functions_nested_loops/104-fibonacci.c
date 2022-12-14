@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - function
  * Description: Print the first 98 fevonacci numbers
@@ -10,7 +9,7 @@ int main(void)
 	int i;
 	long int f1 = 0, f2 = 1, sum;
 
-	for (i = 0 ; i < 98 ; i++)
+	for (i = 0 ; i < 97 ; i++)
 	{
 		sum = f1 + f2;
 		printf("%li", sum);
