@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "main.h>"
+#include "main.h"
+
 /**
  * void reset_to_98 - function
  * Description: update the value of n using pointer
