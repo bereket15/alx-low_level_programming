@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * void reset_to_98 - function
+ * reset_to_98 - function
  * Description: update the value of n using pointer
  * @n: varyabel to point at
  * Return: return void
