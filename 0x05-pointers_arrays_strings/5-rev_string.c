@@ -7,7 +7,6 @@
  */
 void rev_string(char *s)
 {
-
 	int i, j, c;
 	char tmp;
 
@@ -19,7 +18,7 @@ void rev_string(char *s)
 	for (i = 0 ; i < j ; i++)
 	{
 		tmp = *(s + (c - i));
-		*(s + (c - i)) = *(s + 1);
+		*(s + (c - i)) = *(s + i);
 		*(s + i) = tmp;
 	}
 }
