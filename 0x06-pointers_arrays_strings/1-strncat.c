@@ -1,8 +1,8 @@
 #include "main.h"
 #include <string.h>
-/*
- * _strcat -> function to append a string
- * Discription: marge two strings
+/**
+ * _strncat -> function to append a string
+ * Description: marge two strings
  * @dest: first param
  * @src: second param
  * @n: Third param
