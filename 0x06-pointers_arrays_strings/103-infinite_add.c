@@ -11,7 +11,7 @@
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i, count1 = 0, count2 = 0;
-
+	
 	for (i = 0; *(n1 + i); i++)
 		count1++;
 	for (i = 0; *(n2 + i); i++)
