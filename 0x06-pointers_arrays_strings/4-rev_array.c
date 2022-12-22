@@ -6,15 +6,14 @@
  * @n: second parm
  * Return: noting
  */
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
-	int len = 0, lenn = 0, i;
+	int tmp, i;
 
-	while (a[len])
-		len++;
-	for (i = len ; len > 0 ; len--)
+	for (i = n - 1; i >= n / 2; i--)
 	{
-		a[lenn] = a[len];
-		lenn++;
+		tmp = a[n - 1 - i];
+		a[n - 1 - i] = a[i];
+		a[i] = tmp;
 	}
 }
