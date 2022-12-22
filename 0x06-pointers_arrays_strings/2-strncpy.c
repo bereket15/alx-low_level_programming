@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 /**
  * _strncpy - function
@@ -9,12 +10,6 @@
  */
 char *_strncpy(char *dest, char *src, int n);
 {
-	int len = 0, i = 0;
-
-	while (dest[len])
-	{
-		dest[len] = src[len];
-		len++;
-	}
+	strncpy(dest, src, n);
 	return (dest);
 }
