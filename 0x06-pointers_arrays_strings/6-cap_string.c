@@ -1,4 +1,4 @@
-lude "main.h"
+#include "main.h"
 
 /**
  * cap_string - function
