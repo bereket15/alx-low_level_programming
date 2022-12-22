@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcat -->tis is a function strcat
+ * _strcat -->tis is a function strcat
  * @dest: first param
  * @src: second param
  * Return: string
