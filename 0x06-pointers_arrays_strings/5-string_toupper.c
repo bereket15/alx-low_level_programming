@@ -6,7 +6,7 @@
  * @x: String value to be uppercase
  * Return: changed string
  */
-char *string_toupper(char *x);
+char *string_toupper(char *x)
 {
 	int i = 0;
 
