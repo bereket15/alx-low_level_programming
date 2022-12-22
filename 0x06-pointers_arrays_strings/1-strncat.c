@@ -2,6 +2,7 @@
 #include <string.h>
 /*
  * _strcat -> function to append a string
+ * Discription: marge two strings
  * @dest: first param
  * @src: second param
  * @n: Third param
