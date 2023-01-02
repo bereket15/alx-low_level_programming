@@ -19,7 +19,7 @@ char *_strchr(char *s, char c)
 		if (*(s + i) == c)
 		{
 			loc = &(*(s + i));
-			exit (0);
+			exit(0);
 		}
 		i++;
 	}
