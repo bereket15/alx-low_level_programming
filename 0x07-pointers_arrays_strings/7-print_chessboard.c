@@ -1,19 +1,19 @@
-#include "main .h"
+#include "main.h"
 
 /**
  * print_chessboard - function
- * Description: to print chase board
- * @a: The chase boared to be printed
- * Return: noting
+ * Description: Print chess board
+ * @a: the address of the string, which holds the chess board
+ * Return: nothing
  */
 void print_chessboard(char (*a)[8])
 {
-	int i, i2;
+	int i, j;
 
 	for (i = 0; a[i][7]; i++)
 	{
-		for (i2 = 0; i2 < 8; i2++)
-			_putchar(a[i1][i2];
+		for (j = 0; j < 8; j++)
+			_putchar(a[i][j]);
 		_putchar('\n');
 	}
 }
