@@ -2,14 +2,13 @@
 
 /**
  * _strlen_recursion - function
- * Description: Prints a string length of  recurssively
+ * Description: counts the size of string
  * @s: a pointer to the string value address
- * Return: count of a string
+ * Return: count of string characters
  */
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	s++
-	return (1 + _strlen_recursion(s));
+	return (_strlen_recursion(s + 1) + 1);
 }
